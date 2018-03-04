@@ -16,7 +16,7 @@
 			<input type="submit" value="Submit"/> 
 		</form>
 		<br>
-		<%= request.getAttribute("message") %>
+		Error: <%= request.getAttribute("message") %>
 
 </body>
 </html>
